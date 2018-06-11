@@ -91,7 +91,7 @@ public class GoddessDao {
         	g.setAge(rs.getInt("age"));
     	   //System.out.println(rs.getString("user_name")+","+rs.getInt("age"));//rs.get获得相应的查询结果的方法
     	   //System.out.println(rs);
-    	   //System.out.println("恭喜大王，连接成功！");
+    	   System.out.println("恭喜大王，连接成功！");
         	gs.add(g);
         }
     	return gs;
